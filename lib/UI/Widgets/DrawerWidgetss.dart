@@ -25,12 +25,24 @@ class DrawerWidgets extends StatelessWidget {
             ),
           ),
           SizedBox(height: 5,),
+
           Card(
             elevation: 2,
             child: ListTile(
               leading:  CircleAvatar(backgroundImage: AssetImage('assets/ferdasuhossna.jpg'),),
-              title: Text('itmes '),
-              subtitle: Text('accus your imtes '),
+              title: Text('account '),
+              subtitle: Text('accuss your account '),
+              trailing: CircleAvatar(child: Icon(Icons.arrow_forward_ios)),
+            ),
+          ),
+          SizedBox(height: 10,),
+
+          Card(
+            elevation: 2,
+            child: ListTile(
+              leading:   CircleAvatar(child: Icon(Icons.shopping_cart_outlined)),
+              title: Text('My Order   ',style: TextStyle(fontWeight: FontWeight.bold),),
+              subtitle: Text('accus your Order '),
               trailing: CircleAvatar(child: Icon(Icons.arrow_forward_ios)),
             ),
           ),
@@ -39,9 +51,9 @@ class DrawerWidgets extends StatelessWidget {
           Card(
             elevation: 2,
             child: ListTile(
-              leading:  CircleAvatar(backgroundImage: AssetImage('assets/ferdasuhossna.jpg'),),
-              title: Text('account '),
-              subtitle: Text('accus your account '),
+              leading:  CircleAvatar(child: Icon(Icons.favorite,color: Colors.red,)),
+              title: Text('MY Whis List  '),
+              subtitle: Text('accus your Whis List  '),
               trailing: CircleAvatar(child: Icon(Icons.arrow_forward_ios)),
             ),
           ),
@@ -50,20 +62,21 @@ class DrawerWidgets extends StatelessWidget {
           Card(
             elevation: 2,
             child: ListTile(
-              leading:  CircleAvatar(backgroundImage: AssetImage('assets/ferdasuhossna.jpg'),),
-              title: Text('account '),
-              subtitle: Text('accus your account '),
+              leading:   CircleAvatar(child: Icon(Icons.settings,)),
+              title: Text('Setting  '),
+              subtitle: Text('accuss your Setting  '),
               trailing: CircleAvatar(child: Icon(Icons.arrow_forward_ios)),
             ),
           ),
           SizedBox(height: 10,),
-          SizedBox(height: 5,),
+
+
           Card(
             elevation: 2,
             child: ListTile(
-              leading:  CircleAvatar(backgroundImage: AssetImage('assets/ferdasuhossna.jpg'),),
-              title: Text('account '),
-              subtitle: Text('accus your account '),
+              leading:   CircleAvatar(child: Icon(Icons.logout,)),
+              title: Text('LogOut  '),
+              subtitle: Text('LogOut your phone   '),
               trailing: CircleAvatar(child: Icon(Icons.arrow_forward_ios)),
             ),
           ),
