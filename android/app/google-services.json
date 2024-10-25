@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1049629390524",
+    "project_id": "food-app-ui-design",
+    "storage_bucket": "food-app-ui-design.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1049629390524:android:88dbb8b35b01c4c26782b9",
+        "android_client_info": {
+          "package_name": "com.example.food_app_ui_design"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrmBSfY6OtdehyQ6bEraBdupYsW8i7ZH8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
